@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var resistorNumber = 2;
+        var resistorColor;
+        switch(resistorNumber){
+            case 0:
+                resistorColor = "black";
+                break;
+            case 1:
+                resistorColor = 'brown';
+                break;
+            case 2:
+                resistorColor = 'red';
+                break;
+            case 3:
+                resistorColor = 'orange';
+                break;
+            default:
+                resistorColor = 'input number';
+        }
+        document.write("Resistor Color Code for " + resistorNumber + " is " + resistorColor);
+    </script>
+</body>
+</html>
